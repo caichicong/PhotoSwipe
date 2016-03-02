@@ -2549,7 +2549,7 @@ var _showOrHideTimeout,
 
 			_currZoomLevel = item.initialZoomLevel;
 			_equalizePoints(_panOffset,  item.initialPosition );
-			_applyCurrentZoomPan();
+			// _applyCurrentZoomPan();
 
 			template.style.opacity = out ? 0 : 1;
 			_applyBgOpacity(1);
